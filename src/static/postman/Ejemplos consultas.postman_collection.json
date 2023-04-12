@@ -1,0 +1,82 @@
+{
+	"info": {
+		"_postman_id": "60c53567-9704-4ba5-a7e4-3fca8fa3bac2",
+		"name": "Ejemplos consultas",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "ObtenerEpisodio",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/episodio/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"episodio",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "HappyNumber",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "7,3,5,19,50",
+					"options": {
+						"raw": {
+							"language": "text"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/math/happy",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"math",
+						"happy"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Sumatoria",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "5"
+				},
+				"url": {
+					"raw": "http://localhost:8080/math/sum",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"math",
+						"sum"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
